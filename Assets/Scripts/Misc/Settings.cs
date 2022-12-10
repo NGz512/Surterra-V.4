@@ -3,6 +3,11 @@ using UnityEngine;
 
 public static class Settings
 {
+    //Player Movnment
+    public const float runningSpeed = 5.333f;
+    public const float walkingSpeed = 2.666f;
+    
+    
     //Player Animation Parameters
     public static int xInput;
     public static int yInput;

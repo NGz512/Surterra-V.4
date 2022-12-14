@@ -15,9 +15,9 @@ MonoBehaviour:
   itemDetails:
   - itemCode: 10000
     itemType: 0
-    itemDescription: Canyon Oak Acorn
-    itemSprite: {fileID: 21300000, guid: af1b40baaf74a384ab525c530522cc79, type: 3}
-    itemLongDescription: Seed tree small but one day this seed to be grow giant!
+    itemDescription: Carrot seed
+    itemSprite: {fileID: 21300000, guid: da18dfe05290e1946ad8bf528cb6e87a, type: 3}
+    itemLongDescription: Seed of carrot takes 4 days to grow
     itemUseGridRadius: 2
     itemUseRadius: 0
     isStartingItem: 0
@@ -27,10 +27,10 @@ MonoBehaviour:
     canBeCarried: 1
   - itemCode: 10001
     itemType: 0
-    itemDescription: Carrot Seed
-    itemSprite: {fileID: 21300000, guid: da18dfe05290e1946ad8bf528cb6e87a, type: 3}
-    itemLongDescription: Seed Carrot one day this to be grow Carrot
-    itemUseGridRadius: 0
+    itemDescription: Tulip seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of tulip takes 7 days to grow
+    itemUseGridRadius: 2
     itemUseRadius: 0
     isStartingItem: 0
     canBePickedUp: 1
@@ -39,19 +39,499 @@ MonoBehaviour:
     canBeCarried: 1
   - itemCode: 10002
     itemType: 0
-    itemDescription: Rye seed
+    itemDescription: Chery seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of chery takes 11 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10003
+    itemType: 0
+    itemDescription: Rye Seed
     itemSprite: {fileID: 21300000, guid: 9d61293bbaa065d40833c207e3c61c6a, type: 3}
-    itemLongDescription: Seed Rye one day this to be grow Rye
+    itemLongDescription: Seed of rye takes 14 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10004
+    itemType: 0
+    itemDescription: Cabbage seed
+    itemSprite: {fileID: 21300000, guid: 17c05da40715e124494590fb60fb3ec8, type: 3}
+    itemLongDescription: Seed of cabbage takes 4 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10005
+    itemType: 0
+    itemDescription: Chili seed
+    itemSprite: {fileID: 21300000, guid: 7e3bd57260cd068458b207447aaa20ca, type: 3}
+    itemLongDescription: Seed of chili takes 8 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10006
+    itemType: 0
+    itemDescription: Lettuce seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of lettuce takes 12 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10007
+    itemType: 0
+    itemDescription: Corn seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of corn takes 14 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10008
+    itemType: 0
+    itemDescription: Shallot seed
+    itemSprite: {fileID: 21300000, guid: 3f5627cf122475a4ca77dd092a42d6e5, type: 3}
+    itemLongDescription: Seed of shallot takes 5 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10009
+    itemType: 0
+    itemDescription: Garlic seed
+    itemSprite: {fileID: 21300000, guid: 2031f4a41e10bc54786b0c1dc83bddb1, type: 3}
+    itemLongDescription: Seed of garlic takes 8 days to grow
     itemUseGridRadius: 0
     itemUseRadius: 0
     isStartingItem: 0
-    canBePickedUp: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10010
+    itemType: 0
+    itemDescription: Tomato seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of tomato takes 12 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10011
+    itemType: 0
+    itemDescription: Wheat seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of wheat takes 15 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10012
+    itemType: 0
+    itemDescription: Potato seed
+    itemSprite: {fileID: 21300000, guid: 6c82cf707ee009b4eb81faada72bb3a5, type: 3}
+    itemLongDescription: Seed of potato takes 5 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10013
+    itemType: 0
+    itemDescription: Peanut seed
+    itemSprite: {fileID: 21300000, guid: a1e1e3477a760fa4c8a8acedbefbfea6, type: 3}
+    itemLongDescription: Seed of peanut takes 8 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10014
+    itemType: 0
+    itemDescription: Broccoli seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of broccoli takes 12 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10015
+    itemType: 0
+    itemDescription: Pumpkin seed
+    itemSprite: {fileID: 0}
+    itemLongDescription: Seed of pumpkin takes 15 days to grow
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10016
+    itemType: 1
+    itemDescription: Carrot
+    itemSprite: {fileID: 21300000, guid: e77aeafb57b28424bb56ed3f9dac6a74, type: 3}
+    itemLongDescription: A fresh carrot.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10017
+    itemType: 1
+    itemDescription: Tulip
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh tulip.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10018
+    itemType: 1
+    itemDescription: Chery
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh chery.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10019
+    itemType: 1
+    itemDescription: Rye
+    itemSprite: {fileID: 21300000, guid: e91e28b79e22c1843ae3cb9faeb1239a, type: 3}
+    itemLongDescription: A fresh Rye.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10020
+    itemType: 1
+    itemDescription: Cabbage
+    itemSprite: {fileID: 21300000, guid: 236630c51f23ad245988ffaec05b7cd7, type: 3}
+    itemLongDescription: A fresh cabbage.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10021
+    itemType: 1
+    itemDescription: Chili
+    itemSprite: {fileID: 21300000, guid: 4951819965cd6164581b17387bc9214b, type: 3}
+    itemLongDescription: A fresh chili.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10022
+    itemType: 1
+    itemDescription: Lettuce
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh lettuce.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10023
+    itemType: 1
+    itemDescription: Corn
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh corn.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10024
+    itemType: 1
+    itemDescription: Shallot
+    itemSprite: {fileID: 21300000, guid: e3ab43e8ac59eef439de6adc1374d482, type: 3}
+    itemLongDescription: A fresh shallot.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10025
+    itemType: 1
+    itemDescription: Garlic
+    itemSprite: {fileID: 21300000, guid: b8c40e5443feb0045be11855f39334d9, type: 3}
+    itemLongDescription: A fresh garlic.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10026
+    itemType: 1
+    itemDescription: Tomato
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh tomato.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10027
+    itemType: 1
+    itemDescription: Wheat
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh wheat.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10028
+    itemType: 1
+    itemDescription: Potato
+    itemSprite: {fileID: 21300000, guid: 2e5bd8d60c7fc5544b01a64f3673736a, type: 3}
+    itemLongDescription: A fresh potato.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10029
+    itemType: 1
+    itemDescription: Peanut
+    itemSprite: {fileID: 21300000, guid: b43a0c292bf6ee84b9958f1aa89bb9a6, type: 3}
+    itemLongDescription: A fresh peanut.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10030
+    itemType: 1
+    itemDescription: Broccoli
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh broccoli.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10031
+    itemType: 1
+    itemDescription: Pumpkin
+    itemSprite: {fileID: 0}
+    itemLongDescription: A fresh pumpkin.Can sell in seed store
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10032
+    itemType: 3
+    itemDescription: Hoe wood
+    itemSprite: {fileID: 21300000, guid: 4a21ba9ebe5cc0941894206079170cf2, type: 3}
+    itemLongDescription: Hoeing tool for plowing soil
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
+  - itemCode: 10033
+    itemType: 3
+    itemDescription: Hoe iron
+    itemSprite: {fileID: 21300000, guid: c1747f1abd1ea9f4fb4c1024fb1b2e01, type: 3}
+    itemLongDescription: Hoeing iron tool for plowing soil
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10034
+    itemType: 4
+    itemDescription: Axe wood
+    itemSprite: {fileID: 21300000, guid: 0439d14f4c3752044957f601935cd221, type: 3}
+    itemLongDescription: Axe tool for chopping tree
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10035
+    itemType: 4
+    itemDescription: Axe iron
+    itemSprite: {fileID: 21300000, guid: b0919f82009fad241a0882661015e199, type: 3}
+    itemLongDescription: Axe iron tool for chopping tree
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10036
+    itemType: 5
+    itemDescription: Hammer wood
+    itemSprite: {fileID: 21300000, guid: 7ce2c9f28004f624e8686c58bc4778bb, type: 3}
+    itemLongDescription: Hammer tool for breaking stone
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10037
+    itemType: 5
+    itemDescription: Hammer iron
+    itemSprite: {fileID: 21300000, guid: e36ee33c2f9557743ab23b5ed6c2c6f8, type: 3}
+    itemLongDescription: Hammer iron tool for breaking stone
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10038
+    itemType: 6
+    itemDescription: Sickle
+    itemSprite: {fileID: 21300000, guid: 0dcdabae549bb314286ed2ad3cf5c01b, type: 3}
+    itemLongDescription: Sickel tool for reaping plant
+    itemUseGridRadius: 2
+    itemUseRadius: 1.5
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10039
+    itemType: 6
+    itemDescription: Sickle iron
+    itemSprite: {fileID: 21300000, guid: 3379358d2e082bf44970448b7f590479, type: 3}
+    itemLongDescription: Sickel iron tool for reaping plant
+    itemUseGridRadius: 2
+    itemUseRadius: 1.5
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10040
+    itemType: 2
+    itemDescription: Watering can
+    itemSprite: {fileID: 21300000, guid: 65e66dd8ab0b36d41933df4292353a59, type: 3}
+    itemLongDescription: Watering can tool for watering plant
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10041
+    itemType: 2
+    itemDescription: Watering can iron
+    itemSprite: {fileID: 21300000, guid: 96c8e510da69ee740ab268f4433383a7, type: 3}
+    itemLongDescription: Watering can iron tool for watering plant
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10042
+    itemType: 1
+    itemDescription: Wood item
+    itemSprite: {fileID: 21300000, guid: 6a0edc0ee664ad54a9e1c085e6816596, type: 3}
+    itemLongDescription: Wood from tree
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10043
     itemType: 0
-    itemDescription: 
+    itemDescription: Tree branch
     itemSprite: {fileID: 0}
     itemLongDescription: 
     itemUseGridRadius: 0
@@ -61,9 +541,33 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
+  - itemCode: 10044
     itemType: 0
-    itemDescription: 
+    itemDescription: Tree
+    itemSprite: {fileID: 21300000, guid: d6ba53273c7e9df46ac375e4a7ff4d6b, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10045
+    itemType: 1
+    itemDescription: Stone item
+    itemSprite: {fileID: 21300000, guid: 19e30dcb0c5c79d4bbc3755cf49db346, type: 3}
+    itemLongDescription: Stone from stone
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10046
+    itemType: 0
+    itemDescription: Small stone
     itemSprite: {fileID: 0}
     itemLongDescription: 
     itemUseGridRadius: 0
@@ -73,9 +577,9 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
+  - itemCode: 10047
     itemType: 0
-    itemDescription: 
+    itemDescription: Stone
     itemSprite: {fileID: 0}
     itemLongDescription: 
     itemUseGridRadius: 0
@@ -85,10 +589,10 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
+  - itemCode: 10048
+    itemType: 8
+    itemDescription: Grass
+    itemSprite: {fileID: 21300000, guid: 3e5f1c58a42f0cf4585b547b9baa975b, type: 3}
     itemLongDescription: 
     itemUseGridRadius: 0
     itemUseRadius: 0
@@ -97,11 +601,23 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
+  - itemCode: 10049
+    itemType: 1
+    itemDescription: Weed
+    itemSprite: {fileID: 21300000, guid: bcc579d66ffa963489485c095746fdde, type: 3}
+    itemLongDescription: Weed from grass
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10050
+    itemType: 9
+    itemDescription: Bed
+    itemSprite: {fileID: 21300000, guid: 1cff831cdb24abf4d827a4ab08de0c63, type: 3}
+    itemLongDescription: Bed
     itemUseGridRadius: 0
     itemUseRadius: 0
     isStartingItem: 0
@@ -109,11 +625,11 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
+  - itemCode: 10051
+    itemType: 9
+    itemDescription: Calender
+    itemSprite: {fileID: 21300000, guid: 9c03d07951131c044982cc00a0c6f8a4, type: 3}
+    itemLongDescription: Calender
     itemUseGridRadius: 0
     itemUseRadius: 0
     isStartingItem: 0
@@ -121,11 +637,11 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
+  - itemCode: 10052
+    itemType: 9
+    itemDescription: Table
+    itemSprite: {fileID: 21300000, guid: bf7ea6b00e3b00b4cb4ffcfe843ba93e, type: 3}
+    itemLongDescription: Table
     itemUseGridRadius: 0
     itemUseRadius: 0
     isStartingItem: 0
@@ -133,167 +649,11 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
-    itemUseGridRadius: 0
-    itemUseRadius: 0
-    isStartingItem: 0
-    canBePickedUp: 0
-    canBeDropped: 0
-    canBeEaten: 0
-    canBeCarried: 0
-  - itemCode: 0
-    itemType: 0
-    itemDescription: 
-    itemSprite: {fileID: 0}
-    itemLongDescription: 
+  - itemCode: 10053
+    itemType: 9
+    itemDescription: Door
+    itemSprite: {fileID: 21300000, guid: 98cf188e676ae7b4183c1fdd0163e427, type: 3}
+    itemLongDescription: Door
     itemUseGridRadius: 0
     itemUseRadius: 0
     isStartingItem: 0

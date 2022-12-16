@@ -1,5 +1,8 @@
-public delegate void MovementDelegate(float inputX, float inputY, bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
-    ToolEffect toolEffect,
+using System;
+using System.Collections.Generic;
+
+
+public delegate void MovementDelegate(float inputX, float inputY, bool isWalking, bool isRunning, bool isIdle, bool isCarrying, ToolEffect toolEffect,
         bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
         bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
         bool isPickingRight, bool isPickingLeft, bool isPickingUp, bool isPickingDown,
@@ -8,14 +11,23 @@ public delegate void MovementDelegate(float inputX, float inputY, bool isWalking
 
 public static class EventHandler
 {
+    // Inventory Updated Event
+    public static event Action<InventoryLocation, List<InventoryItem>> InventoryUpdatedEvent;
+
+    public static void CallInventoryUpdatedEvent(InventoryLocation inventoryLocation, List<InventoryItem> inventoryList)
+    {
+        if (InventoryUpdatedEvent != null)
+            InventoryUpdatedEvent(inventoryLocation, inventoryList);
+    }
+
+
     //Movenment Event (Use in Animation)
 
     public static event MovementDelegate MovementEvent;
 
     // Movement Event Call for Publishers (GetMethod)
 
-    public static void CallMovementEvent(float inputX, float inputY, bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
-            ToolEffect toolEffect,
+    public static void CallMovementEvent(float inputX, float inputY, bool isWalking, bool isRunning, bool isIdle, bool isCarrying, ToolEffect toolEffect,
     bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
     bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
     bool isPickingRight, bool isPickingLeft, bool isPickingUp, bool isPickingDown,

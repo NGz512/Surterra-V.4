@@ -54,23 +54,24 @@ public class Player : SingletonMonobehaviour<Player>
     {
         #region Player Input
 
-        ResetAnimationTriggers();
+        if (!PlayerInputIsDisabled)
+        {
+            ResetAnimationTriggers();
 
-        PlayerMovementInput();
+            PlayerMovementInput();
 
-        //no Player Walking Part 12 12:40
+            //no Player Walking Part 12 12:40
 
-        // Send event to any listeners for player movement input
-        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
-            isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
-            isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
-            isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
-             isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
-             false, false, false, false);
+            // Send event to any listeners for player movement input
+            EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
+                isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+                isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+                isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+                 isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+                 false, false, false, false);
+        }
 
-
-        #endregion
-
+        #endregion Player Input
     }
 
     private void FixedUpdate()
@@ -152,6 +153,40 @@ public class Player : SingletonMonobehaviour<Player>
     }
 
     // no Code Player Walk Part 12 13:01
+
+    private void ResetMovement()
+    {
+        // Reset movement
+        xInput = 0f;
+        yInput = 0f;
+        isRunning = false;
+        isWalking = false;
+        isIdle = true;
+    }
+
+    public void DisablePlayerInputAndResetMovement()
+    {
+        DisablePlayerInput();
+        ResetMovement();
+
+        // Send event to any listeners for player movement input
+        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
+            isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+            isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+            isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+             isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+             false, false, false, false);
+    }
+
+    public void DisablePlayerInput()
+    {
+        PlayerInputIsDisabled = true;
+    }
+
+    public void EnablePlayerInput()
+    {
+        PlayerInputIsDisabled = false;
+    }
 
     public Vector3 GetPlayerViewportPosition()
     {

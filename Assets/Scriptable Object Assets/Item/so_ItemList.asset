@@ -661,3 +661,15 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
+  - itemCode: 10054
+    itemType: 7
+    itemDescription: Wicker Basket
+    itemSprite: {fileID: 21300000, guid: c1bfeb0f5777988409f89ae44080f4ed, type: 3}
+    itemLongDescription: Harvest Plant Product
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0

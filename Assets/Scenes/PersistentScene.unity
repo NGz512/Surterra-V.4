@@ -2301,7 +2301,7 @@ MonoBehaviour:
   fadeDuration: 1
   faderCanvasGroup: {fileID: 1851155674}
   faderImage: {fileID: 1851155671}
-  startingSceneName: 0
+  startingSceneName: 1
 --- !u!4 &1934554656
 Transform:
   m_ObjectHideFlags: 0
@@ -2814,6 +2814,7 @@ GameObject:
   - component: {fileID: 5717628547155423425}
   - component: {fileID: 5717628547155423426}
   - component: {fileID: 5717628547155423428}
+  - component: {fileID: 5717628547155423429}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3167,6 +3168,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 596a9b58bd183b840a35151b9aec1fd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5717628547155423429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3842196646514732713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7853c67a45eaf428db3d7668094177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &6287980664863701913

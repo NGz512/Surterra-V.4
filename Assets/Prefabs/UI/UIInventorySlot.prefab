@@ -49,7 +49,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98150808580600533}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!114 &1019741208224904113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +108,7 @@ MonoBehaviour:
   inventorySlotImage: {fileID: 1019741208224904113}
   textMeshProUGUI: {fileID: 8806483815231453368}
   inventoryBar: {fileID: 0}
+  inventoryTextBoxPrefab: {fileID: 0}
   itemDetails:
     itemCode: 0
     itemType: 0
@@ -123,6 +124,7 @@ MonoBehaviour:
     canBeCarried: 0
   itemPrefab: {fileID: 7552661691202796504, guid: 4a7d0ed7036be284bb07c6e5a5bbb7fe, type: 3}
   itemQuantity: 0
+  slotNumber: 0
 --- !u!1 &1710019234021349900
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +170,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710019234021349900}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!114 &6266796262312924620
 MonoBehaviour:
   m_ObjectHideFlags: 0

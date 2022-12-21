@@ -520,7 +520,7 @@ MonoBehaviour:
   - itemCode: 10042
     itemType: 1
     itemDescription: Wood item
-    itemSprite: {fileID: 21300000, guid: 6a0edc0ee664ad54a9e1c085e6816596, type: 3}
+    itemSprite: {fileID: 21300000, guid: aff6761c825202649955ee1c179b7815, type: 3}
     itemLongDescription: Wood from tree
     itemUseGridRadius: 2
     itemUseRadius: 0
@@ -532,7 +532,7 @@ MonoBehaviour:
   - itemCode: 10043
     itemType: 0
     itemDescription: Tree branch
-    itemSprite: {fileID: 0}
+    itemSprite: {fileID: 21300000, guid: ca187dddc29452f489c264be430f2a93, type: 3}
     itemLongDescription: 
     itemUseGridRadius: 0
     itemUseRadius: 0
@@ -568,7 +568,7 @@ MonoBehaviour:
   - itemCode: 10046
     itemType: 0
     itemDescription: Small stone
-    itemSprite: {fileID: 0}
+    itemSprite: {fileID: 21300000, guid: 8775b0cd62642b646bc341a38b1af43c, type: 3}
     itemLongDescription: 
     itemUseGridRadius: 0
     itemUseRadius: 0
@@ -580,7 +580,7 @@ MonoBehaviour:
   - itemCode: 10047
     itemType: 0
     itemDescription: Stone
-    itemSprite: {fileID: 0}
+    itemSprite: {fileID: 21300000, guid: 1ec7d4321225ab644b7990bebe5335ca, type: 3}
     itemLongDescription: 
     itemUseGridRadius: 0
     itemUseRadius: 0

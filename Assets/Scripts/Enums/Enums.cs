@@ -37,10 +37,10 @@ public enum AnimationName
 
 public enum Month //Season in Part 34
 {
-    M1,
-    M2,
-    M3,
-    M4,
+    Month1,
+    Month2,
+    Month3,
+    Month4,
     none,
     count
 }

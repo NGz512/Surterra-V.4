@@ -82,6 +82,8 @@ public class Player : SingletonMonobehaviour<Player>
 
             //no Player Walking Part 12 12:40
 
+            PlayerTestInput();
+
             // Send event to any listeners for player movement input
             EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
                 isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
@@ -173,6 +175,26 @@ public class Player : SingletonMonobehaviour<Player>
     }
 
     // no Code Player Walk Part 12 13:01
+
+    // TODO: Remove
+    /// <summary>
+    /// Temp routine for test input
+    /// </summary>
+    private void PlayerTestInput()
+    {
+        // Trigger Advance Time
+        if (Input.GetKey(KeyCode.T))
+        {
+            TimeManager.Instance.TestAdvanceGameMinute();
+        }
+
+        // Trigger Advance Day
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            TimeManager.Instance.TestAdvanceGameDay();
+        }
+
+    }
 
     private void ResetMovement()
     {

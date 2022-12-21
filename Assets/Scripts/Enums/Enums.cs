@@ -35,6 +35,16 @@ public enum AnimationName
     count
 }
 
+public enum Month //Season in Part 34
+{
+    M1,
+    M2,
+    M3,
+    M4,
+    none,
+    count
+}
+
 public enum CharacterPartAnimator
 {
     body,

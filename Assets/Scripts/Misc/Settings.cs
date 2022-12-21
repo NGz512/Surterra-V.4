@@ -53,8 +53,10 @@ public static class Settings
     public const string WateringTool = "Watering Can";
     public const string CollectingTool = "Basket";
 
-    // static constuctor
+    // Time System
+    public const float secondsPerGameSecond = 0.012f;
 
+    // static constuctor
     static Settings()
     {
         // Player Animation Parameters

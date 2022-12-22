@@ -34,7 +34,6 @@ public enum AnimationName
     pickLeft,
     count
 }
-
 public enum Month //Season in Part 34
 {
     Month1,
@@ -44,7 +43,6 @@ public enum Month //Season in Part 34
     none,
     count
 }
-
 public enum CharacterPartAnimator
 {
     body,
@@ -55,7 +53,6 @@ public enum PartVariantColour
     none,
     count
 }
-
 public enum PartVariantType
 {
     none,
@@ -67,28 +64,31 @@ public enum PartVariantType
     wateringCan,
     count
 }
-
+public enum GridBoolProperty
+{
+    diggable,
+    canDropItem,
+    canPlaceFurniture,
+    isPath,
+    isNPCObstacle
+}
 public enum InventoryLocation
 {
     player,
     chest,
     count
 }
-
 public enum SceneName
 {
     Scene1_Farm,
     Scene2_Town,
     Scene3_Cabin
 }
-
-
 public enum ToolEffect
 {
     none,
     watering
 }
-
 public enum Direction
 {
     up,
@@ -97,7 +97,6 @@ public enum Direction
     right,
     none
 }
-
 public enum ItemType
 {
     Seed,

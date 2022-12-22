@@ -4342,6 +4342,7 @@ GameObject:
   - component: {fileID: 928070660}
   - component: {fileID: 928070662}
   - component: {fileID: 928070661}
+  - component: {fileID: 928070663}
   m_Layer: 0
   m_Name: BoolDiggable
   m_TagString: Untagged
@@ -4451,6 +4452,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &928070663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928070659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b3261d52425cb45b9ed3455652f7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: 0b95887a27d2490489fcdf5494d6150c, type: 2}
+  gridBoolProperty: 0
 --- !u!1001 &966108746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5857,6 +5872,7 @@ GameObject:
   - component: {fileID: 1216010608}
   - component: {fileID: 1216010610}
   - component: {fileID: 1216010609}
+  - component: {fileID: 1216010611}
   m_Layer: 0
   m_Name: BoolCanPlaceFurniture
   m_TagString: Untagged
@@ -5966,6 +5982,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1216010611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216010607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b3261d52425cb45b9ed3455652f7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: 0b95887a27d2490489fcdf5494d6150c, type: 2}
+  gridBoolProperty: 2
 --- !u!4 &1225086386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8106671933365785286, guid: 1bb7ebe7e186dce4d9884e226a0aea4b, type: 3}
@@ -6588,6 +6618,7 @@ GameObject:
   - component: {fileID: 1347283137}
   - component: {fileID: 1347283139}
   - component: {fileID: 1347283138}
+  - component: {fileID: 1347283140}
   m_Layer: 0
   m_Name: BoolCanDropItem
   m_TagString: Untagged
@@ -6697,6 +6728,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1347283140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347283136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b3261d52425cb45b9ed3455652f7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: 0b95887a27d2490489fcdf5494d6150c, type: 2}
+  gridBoolProperty: 1
 --- !u!1001 &1362599780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13471,6 +13516,7 @@ GameObject:
   - component: {fileID: 1754137651}
   - component: {fileID: 1754137653}
   - component: {fileID: 1754137652}
+  - component: {fileID: 1754137654}
   m_Layer: 0
   m_Name: BoolNPCObstacle
   m_TagString: Untagged
@@ -13580,6 +13626,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1754137654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754137650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b3261d52425cb45b9ed3455652f7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: 0b95887a27d2490489fcdf5494d6150c, type: 2}
+  gridBoolProperty: 4
 --- !u!1001 &1790682489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13653,6 +13713,7 @@ GameObject:
   - component: {fileID: 1812948245}
   - component: {fileID: 1812948247}
   - component: {fileID: 1812948246}
+  - component: {fileID: 1812948248}
   m_Layer: 0
   m_Name: BoolPath
   m_TagString: Untagged
@@ -13762,6 +13823,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1812948248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812948244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b3261d52425cb45b9ed3455652f7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: 0b95887a27d2490489fcdf5494d6150c, type: 2}
+  gridBoolProperty: 3
 --- !u!1001 &1817769609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30952,16 +31027,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -39720,7 +39785,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 287a03f2960dd654788d840e2e03f9f1, type: 2}
   - m_RefCount: 27
     m_Data: {fileID: 11400000, guid: c782143b79e90454587caa57b7e4b848, type: 2}
-  - m_RefCount: 1600
+  - m_RefCount: 1599
     m_Data: {fileID: 11400000, guid: 94f50976c19323e448f6ce1a642d9e7c, type: 2}
   - m_RefCount: 40
     m_Data: {fileID: 11400000, guid: 0eac58182276b364983c64d15b3ce069, type: 2}
@@ -39745,7 +39810,7 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 1f5762a5ec4897a43a2b479067e828a8, type: 3}
   - m_RefCount: 27
     m_Data: {fileID: 21300000, guid: 904ad5239c0c5d74fbd4b09e9fad4dae, type: 3}
-  - m_RefCount: 1600
+  - m_RefCount: 1599
     m_Data: {fileID: 21300000, guid: baf92b61f44d56b43ba7627e2f1b528d, type: 3}
   - m_RefCount: 40
     m_Data: {fileID: 21300000, guid: 9283d5a77adc16246937d13a76ae42e2, type: 3}
@@ -39764,7 +39829,7 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: fc535b200e0a482459ab7686044d2250, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2497
+  - m_RefCount: 2496
     m_Data:
       e00: 1
       e01: 0
@@ -39783,7 +39848,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2497
+  - m_RefCount: 2496
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1

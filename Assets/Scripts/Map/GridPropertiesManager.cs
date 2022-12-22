@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(GenerateGUID))]
 public class GridPropertiesManager : SingletonMonobehaviour<GridPropertiesManager>, ISaveable
 {
-    private Grid grid;
+    public Grid grid;
     private Dictionary<string, GridPropertyDetails> gridPropertyDictionary;
     [SerializeField] private SO_GridProperties[] so_gridPropertiesArray = null;
 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class SceneSave
 {
     //string key is am identifier name we choose for this list
-    public Dictionary<string, List<SceneItem>> listSceneItemDictionary;
+    public List<SceneItem> listSceneItem;
+    public Dictionary<string, GridPropertyDetails> gridPropertyDetailsDictionary;
 }
 

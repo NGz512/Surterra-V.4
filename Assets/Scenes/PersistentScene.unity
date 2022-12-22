@@ -1659,7 +1659,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.23534028, g: 0.4056604, b: 0.21201494, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2301,7 +2301,7 @@ MonoBehaviour:
   fadeDuration: 1
   faderCanvasGroup: {fileID: 1851155674}
   faderImage: {fileID: 1851155671}
-  startingSceneName: 1
+  startingSceneName: 0
 --- !u!4 &1934554656
 Transform:
   m_ObjectHideFlags: 0

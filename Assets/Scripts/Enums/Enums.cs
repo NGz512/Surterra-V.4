@@ -67,7 +67,6 @@ public enum PartVariantType
     wateringCan,
     count
 }
-
 public enum InventoryLocation
 {
     player,

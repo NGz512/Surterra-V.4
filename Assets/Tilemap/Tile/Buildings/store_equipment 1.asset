@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: fence_9
+  m_Name: store_equipment 1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: f9c1d98ff4579164c8e58749531a35fe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c909c86cbd5517b47a039aac3c95fa4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

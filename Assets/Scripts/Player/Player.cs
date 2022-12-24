@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : SingletonMonobehaviour<Player>
 {
+    private WaitForSeconds afterLiftToolAnimationPause;
     private WaitForSeconds afterUseToolAnimationPause;
     private AnimationOverrides animationOverrides;
     private GridCursor gridCursor;
@@ -32,6 +33,7 @@ public class Player : SingletonMonobehaviour<Player>
     private bool isPickingDown;
     private bool isPickingLeft;
     private bool isPickingRight;
+    private WaitForSeconds liftToolAnimationPause;
 
     private Camera mainCamera;
     private bool playerToolUseDisabled = false;
@@ -80,7 +82,9 @@ public class Player : SingletonMonobehaviour<Player>
     {
         gridCursor = FindObjectOfType<GridCursor>();
         useToolAnimationPause = new WaitForSeconds(Settings.useToolAnimationPause);
+        liftToolAnimationPause = new WaitForSeconds(Settings.lifeToolAnimationPause);
         afterUseToolAnimationPause = new WaitForSeconds(Settings.afterUseToolAnimationPause);
+        afterLiftToolAnimationPause = new WaitForSeconds(Settings.afterLiftToolAnimationPause);
     }
 
     private void Update()
@@ -241,6 +245,7 @@ public class Player : SingletonMonobehaviour<Player>
                     }
                     break;
 
+                case ItemType.Watering_tool:
                 case ItemType.Hoeing_tool:
                     ProcessPlayerClickInputTool(gridPropertyDetails, itemDetails, playerDirection);
                     break;
@@ -305,6 +310,13 @@ public class Player : SingletonMonobehaviour<Player>
                 }
                 break;
 
+            case ItemType.Watering_tool:
+                if (gridCursor.CursorPositionIsValid)
+                {
+                    WaterGroundAtCursor(gridPropertyDetails, playerDirection);
+                }
+                break;
+
             default:
                 break;
         }
@@ -360,6 +372,60 @@ public class Player : SingletonMonobehaviour<Player>
 
         // After animation pause
         yield return afterUseToolAnimationPause;
+
+        PlayerInputIsDisabled = false;
+        playerToolUseDisabled = false;
+    }
+    private void WaterGroundAtCursor(GridPropertyDetails gridPropertyDetails, Vector3Int playerDirection)
+    {
+        // Trigger animation
+        StartCoroutine(WaterGroundAtCursorRoutine(playerDirection, gridPropertyDetails));
+    }
+
+    private IEnumerator WaterGroundAtCursorRoutine(Vector3Int playerDirection, GridPropertyDetails gridPropertyDetails)
+    {
+        PlayerInputIsDisabled = true;
+        playerToolUseDisabled = true;
+
+        // Set tool animation to watering can in override animation
+        toolCharacterAttribute.partVariantType = PartVariantType.wateringCan;
+        characterAttributeCustomisationList.Clear();
+        characterAttributeCustomisationList.Add(toolCharacterAttribute);
+        animationOverrides.ApplyCharacterCustomisationParameters(characterAttributeCustomisationList);
+
+        // TODO: If there is water in the watering can
+        toolEffect = ToolEffect.watering;
+
+        if (playerDirection == Vector3Int.right)
+        {
+            isLiftingToolRight = true;
+        }
+        else if (playerDirection == Vector3Int.left)
+        {
+            isLiftingToolLeft = true;
+        }
+        else if (playerDirection == Vector3Int.up)
+        {
+            isLiftingToolUp = true;
+        }
+        else if (playerDirection == Vector3Int.down)
+        {
+            isLiftingToolDown = true;
+        }
+
+        yield return liftToolAnimationPause;
+
+        // Set Grid property details for watered ground
+        if (gridPropertyDetails.daysSinceWatered == -1)
+        {
+            gridPropertyDetails.daysSinceWatered = 0;
+        }
+
+        // Set grid property to watered
+        GridPropertiesManager.Instance.SetGridPropertyDetails(gridPropertyDetails.gridX, gridPropertyDetails.gridY, gridPropertyDetails);
+
+        // After animation pause
+        yield return afterLiftToolAnimationPause;
 
         PlayerInputIsDisabled = false;
         playerToolUseDisabled = false;

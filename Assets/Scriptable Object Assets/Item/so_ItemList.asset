@@ -604,7 +604,7 @@ MonoBehaviour:
   - itemCode: 10049
     itemType: 1
     itemDescription: Weed
-    itemSprite: {fileID: 21300000, guid: bcc579d66ffa963489485c095746fdde, type: 3}
+    itemSprite: {fileID: 21300000, guid: c1564d65a904da340b6ad314e61f6d5c, type: 3}
     itemLongDescription: Weed from grass
     itemUseGridRadius: 2
     itemUseRadius: 0
@@ -664,7 +664,7 @@ MonoBehaviour:
   - itemCode: 10054
     itemType: 7
     itemDescription: Wicker Basket
-    itemSprite: {fileID: 21300000, guid: c1bfeb0f5777988409f89ae44080f4ed, type: 3}
+    itemSprite: {fileID: 21300000, guid: ca9c2c154a99f4f438b8c27e7b3b9a76, type: 3}
     itemLongDescription: Harvest Plant Product
     itemUseGridRadius: 1
     itemUseRadius: 0

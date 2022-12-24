@@ -23,6 +23,7 @@ public class TilemapGridProperties : MonoBehaviour
             }
         }
     }
+
     private void OnDisable()
     {        // Only populate in the editor
         if (!Application.IsPlaying(gameObject))

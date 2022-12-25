@@ -3446,7 +3446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765117569708456235, guid: 1c28b1374f333344d974a944664c99f8, type: 3}
       propertyPath: scenePositionGoto.y
-      value: 7.6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1955282756388262980, guid: 1c28b1374f333344d974a944664c99f8, type: 3}
       propertyPath: m_Size.x

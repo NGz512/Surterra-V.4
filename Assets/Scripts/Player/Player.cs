@@ -82,7 +82,6 @@ public class Player : SingletonMonobehaviour<Player>
 
     private void OnDisable()
     {
-        ISaveableDeregister();
 
         EventHandler.BeforeSceneUnloadFadeOutEvent -= DisablePlayerInputAndResetMovement;
         EventHandler.AfterSceneLoadFadeInEvent -= EnablePlayerInput;

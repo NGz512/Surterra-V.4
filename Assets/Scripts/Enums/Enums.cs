@@ -113,3 +113,13 @@ public enum ItemType
     none,
     count
 }
+
+public enum HarvestActionEffect
+{
+    deciduousLeavesFalling,
+    pineConesFalling,
+    choppingTreeTrunk,
+    breakingStone,
+    reaping,
+    none
+}

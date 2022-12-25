@@ -474,7 +474,7 @@ MonoBehaviour:
     itemDescription: Sickle
     itemSprite: {fileID: 21300000, guid: 0dcdabae549bb314286ed2ad3cf5c01b, type: 3}
     itemLongDescription: Sickel tool for reaping plant
-    itemUseGridRadius: 2
+    itemUseGridRadius: 0
     itemUseRadius: 1.5
     isStartingItem: 1
     canBePickedUp: 1

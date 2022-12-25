@@ -46,6 +46,7 @@ public enum Month //Season in Part 34
 public enum CharacterPartAnimator
 {
     body,
+    tool,
     count
 }
 public enum PartVariantColour

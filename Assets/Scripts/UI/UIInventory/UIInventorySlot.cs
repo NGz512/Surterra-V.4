@@ -146,7 +146,7 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
             {
                 Vector3 worldPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -mainCamera.transform.position.z));
                 // Create item from prefab at mouse position
-                GameObject itemGameObject = Instantiate(itemPrefab,new Vector3( worldPosition.x , worldPosition.y - Settings.gridCellSize/2f , worldPosition.z), Quaternion.identity, parentItem);
+                GameObject itemGameObject = Instantiate(itemPrefab,new Vector3(worldPosition.x, worldPosition.y - Settings.gridCellSize / 2f, worldPosition.z), Quaternion.identity, parentItem);
                 Item item = itemGameObject.GetComponent<Item>();
                 item.ItemCode = itemDetails.itemCode;
 

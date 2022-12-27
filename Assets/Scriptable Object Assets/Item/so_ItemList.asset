@@ -673,3 +673,27 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
+  - itemCode: 10055
+    itemType: 0
+    itemDescription: Tree stump
+    itemSprite: {fileID: 21300000, guid: 1f2c0b57105071b44a3270a361c06826, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10056
+    itemType: 0
+    itemDescription: Tree seed
+    itemSprite: {fileID: 21300000, guid: bcc579d66ffa963489485c095746fdde, type: 3}
+    itemLongDescription: Seed are packed with seeds to grow new trees
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1

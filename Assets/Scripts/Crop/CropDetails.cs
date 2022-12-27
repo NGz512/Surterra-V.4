@@ -14,7 +14,6 @@ public class CropDetails
     public int harvestedTransformItemCode; // if the item transforms into another item when harvested this item code will be populated
     public bool hideCropBeforeHarvestedAnimation; // if the crop should be disabled before the harvested animation
     public bool disableCropCollidersBeforeHarvestedAnimation;// if colliders on crop should be disabled to avoid the harvested animation effecting any other game objects
-    
     public bool isHarvestedAnimation; // true if harvested animation to be played on final growth stage prefab
     public bool isHarvestActionEffect = false; // flag to determine whether there is a harvest action effect
     public bool spawnCropProducedAtPlayerPosition;

@@ -126,7 +126,7 @@ MonoBehaviour:
     itemDescription: Garlic seed
     itemSprite: {fileID: 21300000, guid: 2031f4a41e10bc54786b0c1dc83bddb1, type: 3}
     itemLongDescription: Seed of garlic takes 8 days to grow
-    itemUseGridRadius: 0
+    itemUseGridRadius: 2
     itemUseRadius: 0
     isStartingItem: 0
     canBePickedUp: 1
@@ -486,7 +486,7 @@ MonoBehaviour:
     itemDescription: Sickle iron
     itemSprite: {fileID: 21300000, guid: 3379358d2e082bf44970448b7f590479, type: 3}
     itemLongDescription: Sickel iron tool for reaping plant
-    itemUseGridRadius: 2
+    itemUseGridRadius: 0
     itemUseRadius: 1.5
     isStartingItem: 0
     canBePickedUp: 1

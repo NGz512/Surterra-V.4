@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BodyLiftToolDown
+  m_Name: BodyHoeToolDown
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 39cdfcf9b1a1e7945abd346d39c9f171, type: 3}
+      value: {fileID: 21300000, guid: 5b0cb6621b0913b498393ed83f74c301, type: 3}
     - time: 0.05
-      value: {fileID: 21300000, guid: 427adb0cbf255b746959685b956deb0e, type: 3}
+      value: {fileID: 21300000, guid: b77f98e0bac227343a00defba32ddad4, type: 3}
     - time: 0.1
-      value: {fileID: 21300000, guid: 8aa2433764bfc4d4c9a1f600c0e328c4, type: 3}
+      value: {fileID: 21300000, guid: d952c1260c8d8d14f89c74a913980885, type: 3}
     - time: 0.15
-      value: {fileID: 21300000, guid: 4092515fc717eab499ad6547f630d74a, type: 3}
+      value: {fileID: 21300000, guid: ba01279a8b8155245b6622f91914accd, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 39cdfcf9b1a1e7945abd346d39c9f171, type: 3}
-    - {fileID: 21300000, guid: 427adb0cbf255b746959685b956deb0e, type: 3}
-    - {fileID: 21300000, guid: 8aa2433764bfc4d4c9a1f600c0e328c4, type: 3}
-    - {fileID: 21300000, guid: 4092515fc717eab499ad6547f630d74a, type: 3}
+    - {fileID: 21300000, guid: 5b0cb6621b0913b498393ed83f74c301, type: 3}
+    - {fileID: 21300000, guid: b77f98e0bac227343a00defba32ddad4, type: 3}
+    - {fileID: 21300000, guid: d952c1260c8d8d14f89c74a913980885, type: 3}
+    - {fileID: 21300000, guid: ba01279a8b8155245b6622f91914accd, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

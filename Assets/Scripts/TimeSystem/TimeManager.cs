@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -130,6 +130,17 @@ public class TimeManager : SingletonMonobehaviour<TimeManager>
             default:
                 return "";
         }
+    }
+
+    public TimeSpan GetGameTime()
+    {
+        TimeSpan gameTime = new TimeSpan(gameHour, gameMinute, gameSecond);
+
+        return gameTime;
+    }
+    public Month GetGameMonth()
+    {
+        return gameMonth;
     }
 
     //TODO:Remove

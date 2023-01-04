@@ -77,11 +77,11 @@ public class Crop : MonoBehaviour
 
             if (isUsingToolRight || isUsingToolUp)
             {
-                animator.SetTrigger("InPutNameAnimationRight");
+                animator.SetTrigger("harvestright");
             }
             else
             {
-                animator.SetTrigger("InPutNameAnimationLeft");
+                animator.SetTrigger("harvestleft");
             }
         }
 

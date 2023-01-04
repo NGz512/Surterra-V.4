@@ -31,3 +31,57 @@ MonoBehaviour:
   - month: 0
     hour: 19
     lightIntensity: 0.2
+  - month: 1
+    hour: 4
+    lightIntensity: 0.85
+  - month: 1
+    hour: 5
+    lightIntensity: 0.95
+  - month: 1
+    hour: 6
+    lightIntensity: 1
+  - month: 1
+    hour: 19
+    lightIntensity: 0.85
+  - month: 1
+    hour: 20
+    lightIntensity: 0.5
+  - month: 1
+    hour: 21
+    lightIntensity: 0.2
+  - month: 2
+    hour: 5
+    lightIntensity: 0.85
+  - month: 2
+    hour: 6
+    lightIntensity: 0.95
+  - month: 2
+    hour: 7
+    lightIntensity: 1
+  - month: 2
+    hour: 18
+    lightIntensity: 0.85
+  - month: 2
+    hour: 19
+    lightIntensity: 0.5
+  - month: 2
+    hour: 20
+    lightIntensity: 0.2
+  - month: 3
+    hour: 6
+    lightIntensity: 0.85
+  - month: 3
+    hour: 7
+    lightIntensity: 0.95
+  - month: 3
+    hour: 8
+    lightIntensity: 1
+  - month: 3
+    hour: 16
+    lightIntensity: 0.85
+  - month: 3
+    hour: 17
+    lightIntensity: 0.5
+  - month: 3
+    hour: 18
+    lightIntensity: 0.2

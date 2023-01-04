@@ -454,14 +454,16 @@ MonoBehaviour:
     cropProducedMaxQuantity: 01000000
     daysToRegrow: 0
   - seedItemCode: 10056
-    growthDays: 00000000050000000f000000
+    growthDays: 00000000050000000a0000000f000000
     growthPrefab:
+    - {fileID: 6939442541064465423, guid: 583433f163417654a9f6855ce900fc24, type: 3}
     - {fileID: 6939442541064465423, guid: 583433f163417654a9f6855ce900fc24, type: 3}
     - {fileID: 6939442541064465423, guid: 583433f163417654a9f6855ce900fc24, type: 3}
     - {fileID: 4014621094077085685, guid: 66614134e16fa3649bcde91d7dd9624c, type: 3}
     growthSprite:
-    - {fileID: 21300000, guid: bcc579d66ffa963489485c095746fdde, type: 3}
-    - {fileID: 21300000, guid: 1f2c0b57105071b44a3270a361c06826, type: 3}
+    - {fileID: 21300000, guid: 1403000f1da5bb94c91e6cc8349264c9, type: 3}
+    - {fileID: 21300000, guid: 6fe2bd26739846e4e955d206e4842aa8, type: 3}
+    - {fileID: 21300000, guid: aa1ae6ceadfdab74392f8933c242b075, type: 3}
     - {fileID: 21300000, guid: 664fa3fd3565d86469a97f9b9443132c, type: 3}
     Months: 00000000010000000200000003000000
     harvestedSprite: {fileID: 0}

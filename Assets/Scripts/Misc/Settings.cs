@@ -71,7 +71,7 @@ public static class Settings
     public const int maxTargetComponentsToDestroyPerReapSwing = 2;
 
     // Time System
-    public const float secondsPerGameSecond = 0.012f;
+    public const float secondsPerGameSecond = 0.00001f;
 
     // static constuctor
     static Settings()

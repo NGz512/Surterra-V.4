@@ -8,7 +8,7 @@ public class CropDetails
     public int[] growthDays; // days growth for each stage
     public GameObject[] growthPrefab;// prefab to use when instantiating growth stages
     public Sprite[] growthSprite; // growth sprite
-    public Month[] Months; // growth seasons
+    public Month[] Months; // growth Month
     public Sprite harvestedSprite; // sprite used once harvested
     [ItemCodeDescription]
     public int harvestedTransformItemCode; // if the item transforms into another item when harvested this item code will be populated

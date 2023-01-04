@@ -21,6 +21,7 @@ public class GridPropertiesManager : SingletonMonobehaviour<GridPropertiesManage
 
     private GameObjectSave _gameObjectSave;
     public GameObjectSave GameObjectSave { get { return _gameObjectSave; } set { _gameObjectSave = value; } }
+
     protected override void Awake()
     {
         base.Awake();

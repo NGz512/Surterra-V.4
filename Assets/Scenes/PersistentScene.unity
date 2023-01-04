@@ -3620,7 +3620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa25b2072151679408370f1f6b37b9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tree2Prefab: {fileID: 7157190007097375438, guid: 458baa2e91e3502469bbaefb1e1f8a72, type: 3}
   equippedItemSpriteRenderer: {fileID: 8230323531317328372}
 --- !u!114 &5717628547155423426
 MonoBehaviour:
@@ -3674,7 +3673,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02000001, y: -0.9075666}
+  m_Offset: {x: 0.02000001, y: 0.0795554}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3685,7 +3684,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.96, y: 0.2099644}
+  m_Size: {x: 0.96, y: 0.14}
   m_EdgeRadius: 0
 --- !u!114 &5717628547155423428
 MonoBehaviour:

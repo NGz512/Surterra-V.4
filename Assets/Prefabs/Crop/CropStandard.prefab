@@ -99,6 +99,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6417063825221497062}
   - component: {fileID: 108345888588007639}
+  - component: {fileID: 11000926356177167}
   m_Layer: 0
   m_Name: CropSprite
   m_TagString: Untagged
@@ -179,6 +180,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!95 &11000926356177167
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742699907777347139}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6939442541064465423
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,6 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17dc6709b573944cb45905f8cc59394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cropHarvestedSpriteRenderer: {fileID: 1146989158294166545}
   cropGridPosition: {x: 0, y: 0}
 --- !u!114 &7383702497517580100
 MonoBehaviour:

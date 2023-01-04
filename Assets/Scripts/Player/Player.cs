@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : SingletonMonobehaviour<Player>
 {
@@ -352,6 +354,9 @@ public class Player : SingletonMonobehaviour<Player>
 
     private void PlantSeedAtCursor(GridPropertyDetails gridPropertyDetails, ItemDetails itemDetails)
     {
+        // Process if we have cropdetails for the seed
+        if (GridPropertiesManager.Instance.GetCropDetails(itemDetails.itemCode) != null)
+        {
             // Update grid properties with seed details
             gridPropertyDetails.seedItemCode = itemDetails.itemCode;
             gridPropertyDetails.growthDays = 0;
@@ -359,8 +364,9 @@ public class Player : SingletonMonobehaviour<Player>
             // Display planted crop at grid property details
             GridPropertiesManager.Instance.DisplayPlantedCrop(gridPropertyDetails);
 
-        // Remove item from inventory
-        EventHandler.CallRemoveSelectedItemFromInventoryEvent();
+            // Remove item from inventory
+            EventHandler.CallRemoveSelectedItemFromInventoryEvent();
+        }
     }
 
     private void ProcessPlayerClickInputCommodity(ItemDetails itemDetails)
@@ -667,7 +673,7 @@ public class Player : SingletonMonobehaviour<Player>
             switch (equippedItemDetails.itemType)
             {
                 case ItemType.Collecting_tool:
-                    crop.ProcessToolAction(equippedItemDetails);
+                    crop.ProcessToolAction(equippedItemDetails, isPickingRight, isPickingLeft, isSwingingToolDown, isPickingUp);
                     break;
             }
         }

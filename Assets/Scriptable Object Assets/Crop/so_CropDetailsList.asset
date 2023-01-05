@@ -515,7 +515,7 @@ MonoBehaviour:
     isHarvestedAnimation: 1
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 1
-    harvestActionEffect: 5
+    harvestActionEffect: 3
     harvestToolItemCode: 34270000
     requiredHarvestActions: 04000000
     cropProducedItemCode: 3d270000
@@ -536,7 +536,7 @@ MonoBehaviour:
     isHarvestedAnimation: 1
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 1
-    harvestActionEffect: 5
+    harvestActionEffect: 3
     harvestToolItemCode: 34270000
     requiredHarvestActions: 06000000
     cropProducedItemCode: 3d270000

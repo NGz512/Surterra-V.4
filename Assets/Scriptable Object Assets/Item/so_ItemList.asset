@@ -697,3 +697,15 @@ MonoBehaviour:
     canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 1
+  - itemCode: 10057
+    itemType: 0
+    itemDescription: stone seed
+    itemSprite: {fileID: 21300000, guid: c080fd8073e687c41952cd004acfae38, type: 3}
+    itemLongDescription: small stone drop from stone
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1

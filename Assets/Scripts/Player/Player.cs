@@ -269,6 +269,7 @@ public class Player : SingletonMonobehaviour<Player>
                     break;
 
                 case ItemType.Watering_tool:
+                case ItemType.Breaking_tool:
                 case ItemType.Chopping_tool:
                 case ItemType.Hoeing_tool:
                 case ItemType.Reaping_tool:
@@ -408,6 +409,13 @@ public class Player : SingletonMonobehaviour<Player>
                 if (gridCursor.CursorPositionIsValid)
                 {
                     CollectInPlayerDirection(gridPropertyDetails, itemDetails, playerDirection);
+                }
+                break;
+            
+            case ItemType.Breaking_tool:
+                if (gridCursor.CursorPositionIsValid)
+                {
+                    BreakInPlayerDirection(gridPropertyDetails, itemDetails, playerDirection);
                 }
                 break;
 
@@ -580,6 +588,32 @@ public class Player : SingletonMonobehaviour<Player>
 
         // After animation pause
         yield return afterPickAnimationPause;
+
+        PlayerInputIsDisabled = false;
+        playerToolUseDisabled = false;
+    }
+    private void BreakInPlayerDirection(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
+    {
+        StartCoroutine(BreakInPlayerDirectionRoutine(gridPropertyDetails, equippedItemDetails, playerDirection));
+    }
+
+    private IEnumerator BreakInPlayerDirectionRoutine(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
+    {
+        PlayerInputIsDisabled = true;
+        playerToolUseDisabled = true;
+
+        // Set tool animation to pickaxe in override animation
+        toolCharacterAttribute.partVariantType = PartVariantType.hammer;
+        characterAttributeCustomisationList.Clear();
+        characterAttributeCustomisationList.Add(toolCharacterAttribute);
+        animationOverrides.ApplyCharacterCustomisationParameters(characterAttributeCustomisationList);
+
+        ProcessCropWithEquippedItemInPlayerDirection(playerDirection, equippedItemDetails, gridPropertyDetails);
+
+        yield return useToolAnimationPause;
+
+        // After animation pause
+        yield return afterUseToolAnimationPause;
 
         PlayerInputIsDisabled = false;
         playerToolUseDisabled = false;

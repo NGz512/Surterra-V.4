@@ -428,7 +428,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 3842196646514732713}
-  soAnimationTypeArray: []
+  soAnimationTypeArray:
+  - {fileID: 11400000, guid: 31f6d1080f570ef44b4dd0037dc03dec, type: 2}
+  - {fileID: 11400000, guid: 87a2b882a3c2dcb40a1e294fdcae5f73, type: 2}
+  - {fileID: 11400000, guid: a9e6456627c7aa041a4bba5ab95f41f9, type: 2}
 --- !u!1 &314720718
 GameObject:
   m_ObjectHideFlags: 0

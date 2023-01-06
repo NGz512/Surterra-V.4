@@ -90,6 +90,16 @@ public enum ToolEffect
     none,
     watering
 }
+
+public enum Weather
+{
+    dry,
+    raining,
+    snowing,
+    none,
+    count
+}
+
 public enum Direction
 {
     up,

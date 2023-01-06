@@ -115,7 +115,7 @@ public enum SoundName
     effectFootstepSoftGround = 10,
     effectFootstepHardGround = 20,
     effectAxe = 30,
-    effectPickaxe = 40,
+    effectHammer = 40,
     effectScythe = 50,
     effectHoe = 60,
     effectWateringCan = 70,

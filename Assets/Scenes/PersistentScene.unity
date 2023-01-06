@@ -1537,13 +1537,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7e1f831c468fb4fbf9cdfb7e7f6f34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundPrefab: {fileID: 0}
+  soundPrefab: {fileID: 4500393123506705564, guid: a395745a6a4787d4f8a4167b89b3cbf8, type: 3}
   ambientSoundAudioSource: {fileID: 0}
   gameMusicAudioSource: {fileID: 0}
   gameAudioMixer: {fileID: 0}
   gameMusicSnapshot: {fileID: 0}
   gameAmbientSnapshot: {fileID: 0}
-  so_soundList: {fileID: 0}
+  so_soundList: {fileID: 11400000, guid: 96156c467d8186843b4f1d9785782af7, type: 2}
   so_sceneSoundsList: {fileID: 0}
   defaultSceneMusicPlayTimeSeconds: 120
   sceneMusicStartMinSecs: 20
@@ -2071,7 +2071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pool:
   - poolSize: 20
-    prefab: {fileID: 7157190007097375438, guid: 458baa2e91e3502469bbaefb1e1f8a72, type: 3}
+    prefab: {fileID: 4500393123506705564, guid: a395745a6a4787d4f8a4167b89b3cbf8, type: 3}
   objectPoolTransform: {fileID: 436323765}
 --- !u!4 &436323765
 Transform:
@@ -7587,9 +7587,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.19405942
-    width: 1
-    height: 0.6115099
+    y: 0
+    width: 0.9987878
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

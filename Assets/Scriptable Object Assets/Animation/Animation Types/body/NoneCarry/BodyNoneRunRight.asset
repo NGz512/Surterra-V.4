@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67500d87e334044418bbfdb03a9a0b4c, type: 3}
-  m_Name: BodyNoneCarryIdleDown
+  m_Name: BodyNoneRunRight
   m_EditorClassIdentifier: 
-  animationClip: {fileID: 7400000, guid: d94e7fbb214f55747a1b23ef116f440b, type: 2}
-  animationName: 0
+  animationClip: {fileID: 7400000, guid: 8b464f39fed984743812e13707e9a1c8, type: 2}
+  animationName: 10
   characterPart: 0
   partVariantColour: 0
   partVariantType: 1

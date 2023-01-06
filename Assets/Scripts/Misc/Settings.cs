@@ -27,7 +27,7 @@ public static class Settings
 
     // Inventory
     public static int playerInitialInventoryCapacity = 24;
-    public static int playerMaximumInventoryCapacity = 48;
+    public static int playerMaximumInventoryCapacity = 24;
 
     //Player Animation Parameters
     public static int xInput;

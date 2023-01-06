@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17dc6709b573944cb45905f8cc59394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cropHarvestedSpriteRenderer: {fileID: 0}
+  cropHarvestedSpriteRenderer: {fileID: 6785351503014910005}
   cropGridPosition: {x: 0, y: 0}
 --- !u!1 &6226207172540257923
 GameObject:

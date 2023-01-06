@@ -1538,7 +1538,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPrefab: {fileID: 0}
+  ambientSoundAudioSource: {fileID: 0}
+  gameMusicAudioSource: {fileID: 0}
+  gameAudioMixer: {fileID: 0}
+  gameMusicSnapshot: {fileID: 0}
+  gameAmbientSnapshot: {fileID: 0}
   so_soundList: {fileID: 0}
+  so_sceneSoundsList: {fileID: 0}
+  defaultSceneMusicPlayTimeSeconds: 120
+  sceneMusicStartMinSecs: 20
+  sceneMusicStartMaxSecs: 40
+  musicTransitionSecs: 8
 --- !u!4 &255828137
 Transform:
   m_ObjectHideFlags: 0
@@ -7577,9 +7587,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.19405942
     width: 1
-    height: 1
+    height: 0.6115099
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

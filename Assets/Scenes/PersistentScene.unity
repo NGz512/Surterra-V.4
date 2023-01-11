@@ -2458,6 +2458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 491255437}
+  - component: {fileID: 491255438}
   m_Layer: 0
   m_Name: UI_Shop
   m_TagString: Untagged
@@ -2481,6 +2482,18 @@ Transform:
   m_Father: {fileID: 314720719}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &491255438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491255436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c2fb0ffda53a8459b3900c5a9976d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &512478359
 GameObject:
   m_ObjectHideFlags: 0
@@ -6492,7 +6505,7 @@ GameObject:
   - component: {fileID: 1294424701}
   - component: {fileID: 1294424700}
   m_Layer: 5
-  m_Name: item name
+  m_Name: itemname
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9036,9 +9049,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.18611111
-    width: 0.18958335
-    height: 0.18958333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

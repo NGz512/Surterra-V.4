@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemDetails 
 {
     public int itemCode;
+    public int itemValue;
     public ItemType itemType;
     public string itemDescription;
     public Sprite itemSprite;

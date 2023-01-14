@@ -10,6 +10,7 @@ public class Quest
     public string title;            // title for quest in game
     public int id;                  // ID number for the quest
     public QuestProgress progress;  // state of current quest (enum)
+    public string description;      // string from our quest Giver/Reciever
     public string hint;             // string from our quest Giver/Reciever
     public string congratulation;   // string from our quest Giver/Reciever
     public string summery;          // string from our quest Giver/Reciever

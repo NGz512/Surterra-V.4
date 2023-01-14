@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67500d87e334044418bbfdb03a9a0b4c, type: 3}
   m_Name: BodyNoneNoneIdleUp
   m_EditorClassIdentifier: 
-  animationClip: {fileID: 7400000, guid: c3932ec913517bc498044114fc402fd7, type: 2}
+  animationClip: {fileID: 7400000, guid: 6ee3018b59836a74dbf505def22d822f, type: 2}
   animationName: 1
   characterPart: 0
   partVariantColour: 0

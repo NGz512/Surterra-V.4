@@ -65,8 +65,6 @@ public class QuestManager : MonoBehaviour
     }
 
     //ADD ITEMS
-
-
     public void AddQuestItem(string questObjective, int itemAmount)
     {
         for (int i = 0; i< currentQuestList.Count; i++)
@@ -83,8 +81,9 @@ public class QuestManager : MonoBehaviour
         }
     }
 
-    // Bool
+    //RemoveItem
 
+    // Bool
     public bool RequestAvailableQuest(int questID)
     {
         for(int i = 0; i < questList.Count; i++)

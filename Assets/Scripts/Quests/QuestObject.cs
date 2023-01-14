@@ -57,7 +57,7 @@ public class QuestObject : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
@@ -65,7 +65,7 @@ public class QuestObject : MonoBehaviour
         }
     }
 
-    void OnTriggerEnterExit(Collider other)
+    void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Player")
         {

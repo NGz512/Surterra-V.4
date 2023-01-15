@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class QuestUIManager : MonoBehaviour
 {
@@ -39,14 +40,14 @@ public class QuestUIManager : MonoBehaviour
     public Transform qLogButtonSpacer; //running in qLog
 
     //QUEST INFOS
-    public Text questTitle;
-    public Text questDescription;
-    public Text questSummary;
+    public TextMeshProUGUI questTitle;
+    public TextMeshProUGUI questDescription;
+    public TextMeshProUGUI questSummary;
 
     //QUEST LOG INFOS
-    public Text questLogTitle;
-    public Text questLogDescription;
-    public Text questLogSummary;
+    public TextMeshProUGUI questLogTitle;
+    public TextMeshProUGUI questLogDescription;
+    public TextMeshProUGUI questLogSummary;
 
     void Awake()
     {

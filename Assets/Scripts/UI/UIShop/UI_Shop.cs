@@ -24,9 +24,44 @@ public class UI_Shop : MonoBehaviour
     public void BuyButton1()
     {
         // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10001);
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 10003);
     }
 
+    public void BuyButton2()
+    {
+        // Add item to inventory
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 10004);
+    }
+
+    public void BuyButton3()
+    {
+        // Add item to inventory
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 10005);
+    }
+
+    public void BuyButton4()
+    {
+        // Add item to inventory
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 10008);
+    }
+
+    public void BuyButton5()
+    {
+        // Add item to inventory
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 10009);
+    }
+
+    public void BuyButton6()
+    {
+        // Add item to inventory
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 100012);
+    }
+
+    public void BuyButton7()
+    {
+        // Add item to inventory
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 100013);
+    }
 
     private void CreateItemButton(Sprite itemSprite, string itemName, int itemCost, int positionIndex)
     {

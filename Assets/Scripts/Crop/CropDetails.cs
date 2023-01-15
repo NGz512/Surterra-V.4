@@ -10,6 +10,7 @@ public class CropDetails
     public Sprite[] growthSprite; // growth sprite
     public Month[] Months; // growth Month
     public Sprite harvestedSprite; // sprite used once harvested
+    public int itemValue; //Value item
     [ItemCodeDescription]
     public int harvestedTransformItemCode; // if the item transforms into another item when harvested this item code will be populated
     public bool hideCropBeforeHarvestedAnimation; // if the crop should be disabled before the harvested animation

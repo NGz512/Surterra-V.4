@@ -29,9 +29,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 75f4735b1875b9649b521b57ac37aa59, type: 3}
     Months: 00000000
     harvestedSprite: {fileID: 21300000, guid: e77aeafb57b28424bb56ed3f9dac6a74, type: 3}
+    itemValue: 20
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -55,9 +57,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 00000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -81,9 +85,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 00000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -113,9 +119,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 343147792532c094299014859676ee54, type: 3}
     Months: 00000000
     harvestedSprite: {fileID: 21300000, guid: e91e28b79e22c1843ae3cb9faeb1239a, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -143,9 +151,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 508c9ea016785be41b22a9a7fb7ecda5, type: 3}
     Months: 01000000
     harvestedSprite: {fileID: 21300000, guid: 236630c51f23ad245988ffaec05b7cd7, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -175,9 +185,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 85db4f5127acff940997906e51bfd7d0, type: 3}
     Months: 01000000
     harvestedSprite: {fileID: 21300000, guid: 4951819965cd6164581b17387bc9214b, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -201,9 +213,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 01000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -227,9 +241,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 01000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -257,9 +273,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: be4546c6f9036c648ae6b572ab50ccc6, type: 3}
     Months: 02000000
     harvestedSprite: {fileID: 21300000, guid: e3ab43e8ac59eef439de6adc1374d482, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -289,9 +307,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 6893590319f1d794aabf61ebb54bcb4c, type: 3}
     Months: 02000000
     harvestedSprite: {fileID: 21300000, guid: b8c40e5443feb0045be11855f39334d9, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -315,9 +335,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 02000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -341,9 +363,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 02000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -371,9 +395,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: a6c6db98aac289148b0d4e4b7b5f0018, type: 3}
     Months: 03000000
     harvestedSprite: {fileID: 21300000, guid: 2e5bd8d60c7fc5544b01a64f3673736a, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -403,9 +429,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 498ef2b308fa160448f24b61f7b5fd26, type: 3}
     Months: 03000000
     harvestedSprite: {fileID: 21300000, guid: b43a0c292bf6ee84b9958f1aa89bb9a6, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -429,9 +457,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 03000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -455,9 +485,11 @@ MonoBehaviour:
     growthSprite: []
     Months: 03000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
@@ -483,9 +515,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 664fa3fd3565d86469a97f9b9443132c, type: 3}
     Months: 00000000010000000200000003000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 10055
     hideCropBeforeHarvestedAnimation: 0
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 0
@@ -505,9 +539,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
     Months: 00000000010000000200000003000000
     harvestedSprite: {fileID: 0}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 0
     disableCropCollidersBeforeHarvestedAnimation: 0
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 0
@@ -527,9 +563,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 8775b0cd62642b646bc341a38b1af43c, type: 3}
     Months: 00000000010000000200000003000000
     harvestedSprite: {fileID: 21300000, guid: 19e30dcb0c5c79d4bbc3755cf49db346, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 1
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 1
@@ -549,9 +587,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1ec7d4321225ab644b7990bebe5335ca, type: 3}
     Months: 00000000010000000200000003000000
     harvestedSprite: {fileID: 21300000, guid: 19e30dcb0c5c79d4bbc3755cf49db346, type: 3}
+    itemValue: 0
     harvestedTransformItemCode: 0
     hideCropBeforeHarvestedAnimation: 1
     disableCropCollidersBeforeHarvestedAnimation: 1
+    plantRequiresWaterToGrow: 0
     isHarvestedAnimation: 1
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 1

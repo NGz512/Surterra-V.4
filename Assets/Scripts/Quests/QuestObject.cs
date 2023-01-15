@@ -52,12 +52,12 @@ public class QuestObject : MonoBehaviour
         if(inTrigger && Input.GetKeyDown(KeyCode.Space))
         {
             //quest ui manager
-
-            QuestManager.questManager.QuestRequest(this);
+            QuestUIManager.uiManager.CheckQuests(this);
+            //QuestManager.questManager.QuestRequest(this);
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
@@ -65,7 +65,7 @@ public class QuestObject : MonoBehaviour
         }
     }
 
-    void OnTriggerEnterExit(Collider other)
+    void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Player")
         {

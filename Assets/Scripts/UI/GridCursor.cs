@@ -132,7 +132,7 @@ public class GridCursor : MonoBehaviour
                 case ItemType.Hoeing_tool:
                 case ItemType.Reaping_tool:
                 case ItemType.Collecting_tool:
-                    if (!IsCursorValidForCommodity(gridPropertyDetails))
+                    if (!IsCursorValidForTool(gridPropertyDetails, itemDetails))
                     {
                         SetCursorToInvalid();
                         return;
@@ -286,6 +286,7 @@ public class GridCursor : MonoBehaviour
 
                 return false;
 
+
             default:
                 return false;
         }
@@ -326,5 +327,4 @@ public class GridCursor : MonoBehaviour
     {
         return grid.CellToWorld(GetGridPositionForCursor());
     }
-
 }

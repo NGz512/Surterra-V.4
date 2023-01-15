@@ -10,6 +10,7 @@ public class GridPropertiesManager : SingletonMonobehaviour<GridPropertiesManage
     private Transform cropParentTransform;
     private Tilemap groundDecoration1;
     private Tilemap groundDecoration2;
+    private CropDetails cropDetails;
     private bool isFirstTimeSceneLoaded = true;
     private Grid grid;
     private Dictionary<string, GridPropertyDetails> gridPropertyDictionary;
@@ -402,6 +403,7 @@ public class GridPropertiesManager : SingletonMonobehaviour<GridPropertiesManage
         {
             // get crop details
             CropDetails cropDetails = so_CropDetailsList.GetCropDetails(gridPropertyDetails.seedItemCode);
+            gridPropertyDetails.plantRequiresWater = cropDetails.plantRequiresWaterToGrow;
 
             if (cropDetails != null)
             {
@@ -707,7 +709,7 @@ public class GridPropertiesManager : SingletonMonobehaviour<GridPropertiesManage
         gridPropertyDictionary[key] = gridPropertyDetails;
     }
 
-    private void AdvanceDay(int gameYear, Month gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond)
+    private void AdvanceDay(int gameYear, Month gameMonth, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond)
     {
         // Clear Display All Grid Property Details
         ClearDisplayGridPropertyDetails();
@@ -731,13 +733,22 @@ public class GridPropertiesManager : SingletonMonobehaviour<GridPropertiesManage
                         // If a crop is planted
                         if (gridPropertyDetails.growthDays > -1)
                         {
-                            gridPropertyDetails.growthDays += 1;
+                            if (gridPropertyDetails.plantRequiresWater == true)
+                            {
+                                gridPropertyDetails.growthDays += gridPropertyDetails.growthDays;
+                            }
+ 
+                            else if (gridPropertyDetails.plantRequiresWater == false && gridPropertyDetails.daysSinceWatered > -1)
+                            {
+                                gridPropertyDetails.growthDays += 1;
+                            }
                         }
 
                         // If ground is watered, then clear water
                         if (gridPropertyDetails.daysSinceWatered > -1)
                         {
                             gridPropertyDetails.daysSinceWatered = -1;
+                            gridPropertyDetails.plantRequiresWater = false;
                         }
 
                         // Set gridpropertydetails

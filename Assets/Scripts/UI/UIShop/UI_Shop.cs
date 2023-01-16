@@ -54,13 +54,13 @@ public class UI_Shop : MonoBehaviour
     public void BuyButton6()
     {
         // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 100012);
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 10012);
     }
 
     public void BuyButton7()
     {
         // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 100013);
+        InventoryManager.Instance.AddItem(InventoryLocation.player, 10013);
     }
 
     private void CreateItemButton(Sprite itemSprite, string itemName, int itemCost, int positionIndex)

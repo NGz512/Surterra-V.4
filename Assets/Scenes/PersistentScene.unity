@@ -5814,7 +5814,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -8582,7 +8582,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -9401,9 +9401,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.15277778
+    width: 0.1890625
+    height: 0.18906249
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -9706,6 +9706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1853320435}
   - component: {fileID: 1853320434}
+  - component: {fileID: 1853320436}
   m_Layer: 0
   m_Name: TimeManager
   m_TagString: Untagged
@@ -9740,6 +9741,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1853320436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853320433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d67b7235b970f43bbf28be725c846c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gUID: d37e7a24-ac77-4c6c-91da-1da16095f4a8
 --- !u!1 &1863030304
 GameObject:
   m_ObjectHideFlags: 0
@@ -11850,6 +11864,7 @@ GameObject:
   - component: {fileID: 5717628547155423425}
   - component: {fileID: 5717628547155423426}
   - component: {fileID: 5717628547155423428}
+  - component: {fileID: 5717628547155423430}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12342,6 +12357,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7853c67a45eaf428db3d7668094177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5717628547155423430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3842196646514732713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d67b7235b970f43bbf28be725c846c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gUID: 6598e5d9-3198-45b9-a991-316470ae949b
 --- !u!212 &6287980664863701913
 SpriteRenderer:
   m_ObjectHideFlags: 0

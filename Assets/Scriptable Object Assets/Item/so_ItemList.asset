@@ -222,7 +222,7 @@ MonoBehaviour:
     canBeEaten: 0
     canBeCarried: 1
   - itemCode: 10016
-    itemValue: 0
+    itemValue: 50
     itemType: 1
     itemDescription: Carrot
     itemSprite: {fileID: 21300000, guid: e77aeafb57b28424bb56ed3f9dac6a74, type: 3}

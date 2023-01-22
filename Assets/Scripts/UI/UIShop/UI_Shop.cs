@@ -18,8 +18,13 @@ public class UI_Shop : MonoBehaviour
     }
     public void BuyButton()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10000);
+        if(InventoryManager.Instance.PlayerMoney >= 20)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 20;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10000);
+        }
     }
     public void BuyButton1()
     {

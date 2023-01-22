@@ -1,9 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class InventoryManager : SingletonMonobehaviour<InventoryManager>, ISaveable
 {
     private UIInventoryBar inventoryBar;
+
+    public int PlayerMoney;
+
+    [SerializeField] private Text Money;
 
     private Dictionary<int, ItemDetails> itemDetailsDictionary;
 
@@ -59,9 +65,21 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>, ISavea
 
     private void Start()
     {
+        //กำหนดเงินผู้เล่นในเกมตอนเริ่มต้น
+        PlayerMoney = 350;
+
         inventoryBar = FindObjectOfType<UIInventoryBar>();
     }
+    
+    void BagMoney()
+    {
+        Money.text = "" + PlayerMoney;
+    }
 
+    private void Update()
+    {
+        BagMoney();
+    }
     private void CreateInventoryLists()
     {
         inventoryLists = new List<InventoryItem>[(int)InventoryLocation.count];

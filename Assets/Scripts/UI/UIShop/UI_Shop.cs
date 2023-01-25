@@ -18,54 +18,89 @@ public class UI_Shop : MonoBehaviour
     }
     public void BuyButton()
     {
-        if(InventoryManager.Instance.PlayerMoney >= 20)
+        if(InventoryManager.Instance.PlayerMoney >= 10)
         {
             //กำหนดซื้อของร้านค้า
-            InventoryManager.Instance.PlayerMoney -= 20;
+            InventoryManager.Instance.PlayerMoney -= 10;
             // Add item to inventory
             InventoryManager.Instance.AddItem(InventoryLocation.player, 10000);
         }
     }
     public void BuyButton1()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10003);
+        if (InventoryManager.Instance.PlayerMoney >= 40)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 40;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10003);
+        }
     }
 
     public void BuyButton2()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10004);
+        if (InventoryManager.Instance.PlayerMoney >= 15)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 15;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10004);
+        }
     }
 
     public void BuyButton3()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10005);
+        if (InventoryManager.Instance.PlayerMoney >= 20)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 20;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10005);
+        }
     }
 
     public void BuyButton4()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10008);
+        if (InventoryManager.Instance.PlayerMoney >= 25)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 25;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10008);
+        }
     }
 
     public void BuyButton5()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10009);
+        if (InventoryManager.Instance.PlayerMoney >= 30)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 30;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10009);
+        }
     }
 
     public void BuyButton6()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10012);
+        if (InventoryManager.Instance.PlayerMoney >= 35)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 35;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10012);
+        }
     }
 
     public void BuyButton7()
     {
-        // Add item to inventory
-        InventoryManager.Instance.AddItem(InventoryLocation.player, 10013);
+        if (InventoryManager.Instance.PlayerMoney >= 50)
+        {
+            //กำหนดซื้อของร้านค้า
+            InventoryManager.Instance.PlayerMoney -= 50;
+            // Add item to inventory
+            InventoryManager.Instance.AddItem(InventoryLocation.player, 10013);
+        }
     }
 
     private void CreateItemButton(Sprite itemSprite, string itemName, int itemCost, int positionIndex)

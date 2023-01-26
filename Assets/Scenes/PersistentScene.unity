@@ -5199,7 +5199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -812.75, y: -355.88}
+  m_AnchoredPosition: {x: -812.75, y: -472}
   m_SizeDelta: {x: 168.2595, y: 43.2151}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &840896242
@@ -5604,7 +5604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36dba516e15b08241a3d75d2ba44e5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerMoney: 350
+  PlayerMoney: 100000
   Money: {fileID: 840896242}
   inventoryListCapacityIntArray: 
   itemList: {fileID: 11400000, guid: c11bff24231dbcd4f93c89892bcee489, type: 2}
@@ -5671,7 +5671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -917.67, y: -355.06}
+  m_AnchoredPosition: {x: -917.67, y: -471.18}
   m_SizeDelta: {x: 41.573, y: 41.573}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018837065
@@ -9217,7 +9217,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -838, y: -355.88}
+  m_AnchoredPosition: {x: -838, y: -472}
   m_SizeDelta: {x: 218.75, y: 62.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587770535

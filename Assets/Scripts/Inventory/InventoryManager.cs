@@ -7,6 +7,8 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>, ISavea
 {
     private UIInventoryBar inventoryBar;
 
+    //public List<InventoryItem> playerInventory;
+
     public int PlayerMoney;
 
     [SerializeField] private Text Money;
@@ -66,7 +68,7 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>, ISavea
     private void Start()
     {
         //กำหนดเงินผู้เล่นในเกมตอนเริ่มต้น
-        PlayerMoney = 350;
+        PlayerMoney = 100000;
 
         inventoryBar = FindObjectOfType<UIInventoryBar>();
     }

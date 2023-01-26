@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemDetails:
   - itemCode: 10000
-    itemValue: 20
+    itemValue: 0
     itemType: 0
     itemDescription: Carrot seed
     itemSprite: {fileID: 21300000, guid: da18dfe05290e1946ad8bf528cb6e87a, type: 3}
@@ -439,11 +439,11 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 1
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10033
-    itemValue: 0
+    itemValue: -1
     itemType: 3
     itemDescription: Hoe iron
     itemSprite: {fileID: 21300000, guid: c1747f1abd1ea9f4fb4c1024fb1b2e01, type: 3}
@@ -452,11 +452,11 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 0
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10034
-    itemValue: 0
+    itemValue: -1
     itemType: 4
     itemDescription: Axe wood
     itemSprite: {fileID: 21300000, guid: 0439d14f4c3752044957f601935cd221, type: 3}
@@ -465,11 +465,11 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 1
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10035
-    itemValue: 0
+    itemValue: -1
     itemType: 4
     itemDescription: Axe iron
     itemSprite: {fileID: 21300000, guid: b0919f82009fad241a0882661015e199, type: 3}
@@ -478,7 +478,7 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 0
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10036
@@ -491,11 +491,11 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 1
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10037
-    itemValue: 0
+    itemValue: -1
     itemType: 5
     itemDescription: Hammer iron
     itemSprite: {fileID: 21300000, guid: e36ee33c2f9557743ab23b5ed6c2c6f8, type: 3}
@@ -504,7 +504,7 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 0
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10038
@@ -517,11 +517,11 @@ MonoBehaviour:
     itemUseRadius: 1.5
     isStartingItem: 1
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10039
-    itemValue: 0
+    itemValue: -1
     itemType: 6
     itemDescription: Sickle iron
     itemSprite: {fileID: 21300000, guid: 3379358d2e082bf44970448b7f590479, type: 3}
@@ -530,7 +530,7 @@ MonoBehaviour:
     itemUseRadius: 1.5
     isStartingItem: 0
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10040
@@ -543,11 +543,11 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 1
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10041
-    itemValue: 0
+    itemValue: -1
     itemType: 2
     itemDescription: Watering can iron
     itemSprite: {fileID: 21300000, guid: 96c8e510da69ee740ab268f4433383a7, type: 3}
@@ -556,7 +556,7 @@ MonoBehaviour:
     itemUseRadius: 0
     isStartingItem: 0
     canBePickedUp: 1
-    canBeDropped: 0
+    canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10042

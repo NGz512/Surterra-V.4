@@ -7,6 +7,8 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>, ISavea
 {
     private UIInventoryBar inventoryBar;
 
+    //public List<InventoryItem> playerInventory;
+
     public int PlayerMoney;
 
     [SerializeField] private Text Money;

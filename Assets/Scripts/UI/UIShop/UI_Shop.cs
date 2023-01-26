@@ -102,6 +102,21 @@ public class UI_Shop : MonoBehaviour
             InventoryManager.Instance.AddItem(InventoryLocation.player, 10013);
         }
     }
+    public void SellButton()
+    {
+        int itemCode = 10000;  // กำหนดค่า itemCode ที่ต้องการที่จะเอาออก
+        InventoryLocation inventoryLocation = InventoryLocation.player;  // กำหนดตำแหน่งของ inventory ที่ต้องการเช็ค
+
+        int itemPosition = InventoryManager.Instance.FindItemInInventory(inventoryLocation, itemCode);  // ใช้คำสั่ง FindItemInInventory เพื่อเช็คว่า itemCode นี้มีใน inventory หรือไม่
+
+        if (itemPosition != -1)
+        {
+            //กำหนดขายของในร้านค้า
+            InventoryManager.Instance.PlayerMoney += 10;
+            // Remove item from inventory
+            InventoryManager.Instance.RemoveItem(inventoryLocation, itemCode);
+        }
+    }
 
     private void CreateItemButton(Sprite itemSprite, string itemName, int itemCost, int positionIndex)
     {

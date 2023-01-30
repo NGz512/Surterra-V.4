@@ -1,26 +1,27 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class QuestManager : MonoBehaviour
 {
-    public static QuestManager instance;
-    public List<Quest> currentQuests = new List<Quest>();
-    public List<Quest> completedQuests = new List<Quest>();
+    public int questPrice = 100000;
+    public int PlayerMoney;
 
-    private void Awake()
+    public void StartQuest()
     {
-        instance = this;
+        if (PlayerMoney >= questPrice)
+        {
+            PlayerMoney -= questPrice;
+            Debug.Log("Quest Started! Remaining Money: " + PlayerMoney);
+        }
+        else
+        {
+            Debug.Log("Not Enough Money! Need " + questPrice + " to start quest");
+        }
     }
 
-    public void AddQuest(Quest newQuest)
+    public void CompleteQuest()
     {
-        currentQuests.Add(newQuest);
-    }
-
-    public void CompleteQuest(Quest completedQuest)
-    {
-        currentQuests.Remove(completedQuest);
-        completedQuests.Add(completedQuest);
+        Debug.Log("Quest Completed!");
     }
 }

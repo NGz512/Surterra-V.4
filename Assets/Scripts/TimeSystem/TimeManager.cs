@@ -205,7 +205,7 @@ public class TimeManager : SingletonMonobehaviour<TimeManager>, ISaveable
             UpdateGameSecond();
         }
     }
-
+    
     public void ISaveableRegister()
     {
         SaveLoadManager.Instance.iSaveableObjectList.Add(this);

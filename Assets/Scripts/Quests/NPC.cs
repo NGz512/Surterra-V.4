@@ -1,15 +1,33 @@
-using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    public Quest questToGive;
+    public QuestManager questManager;
+    private int playerMoney;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void Start()
     {
-        if (other.CompareTag("Player"))
+        //playerMoney = GameManager.Instance.GetPlayerMoney();
+    }
+
+    public void OfferQuest()
+    {
+        if (questManager.PlayerMoney >= questManager.questPrice)
         {
-            QuestManager.instance.AddQuest(questToGive);
+            questManager.StartQuest();
+            // Start conversation with player to start quest
         }
+        else
+        {
+            Debug.Log("Not Enough Money! Need " + questManager.questPrice + " to start quest");
+        }
+    }
+
+    public void CompleteQuest()
+    {
+        questManager.CompleteQuest();
+        // End conversation with player after quest is completed
     }
 }

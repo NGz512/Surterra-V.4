@@ -346,6 +346,8 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>, ISavea
         // Create new scene save
         SceneSave sceneSave = new SceneSave();
 
+        sceneSave.PlayerMoney = PlayerMoney;
+
         // Remove any existing scene save for persistent scene for this gameobject
         GameObjectSave.sceneData.Remove(Settings.PersistentScene);
 
@@ -387,6 +389,11 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>, ISavea
 
                     // Clear any highlights on inventory bar
                     inventoryBar.ClearHighlightOnInventorySlots();
+                }
+
+                if (sceneSave.PlayerMoney != null)
+                {
+                    PlayerMoney = sceneSave.PlayerMoney;
                 }
 
                 // int array dictionary exists for scene

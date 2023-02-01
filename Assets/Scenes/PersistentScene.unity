@@ -10861,9 +10861,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.20833333
+    width: 0.09427084
+    height: 0.09427083
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -11798,7 +11798,7 @@ MonoBehaviour:
   fadeDuration: 0.25
   faderCanvasGroup: {fileID: 1851155674}
   faderImage: {fileID: 1851155671}
-  startingSceneName: 0
+  startingSceneName: 1
 --- !u!4 &1934554656
 Transform:
   m_ObjectHideFlags: 0

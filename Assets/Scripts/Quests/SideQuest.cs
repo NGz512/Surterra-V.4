@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SideQuest : MonoBehaviour
 {
+    public NPCQuest npcQuest;
     private bool isUsed = false;
     public void GiveItem()
     {
         if (!isUsed)
         {
-            int itemcode = 10000;
+            int itemcode = 10016;
             InventoryLocation inventoryLocation = InventoryLocation.player;
 
             int itemPosition = InventoryManager.Instance.FindItemInInventory(inventoryLocation, itemcode);
@@ -22,6 +23,8 @@ public class SideQuest : MonoBehaviour
                 // Remove item from inventory
                 InventoryManager.Instance.RemoveItem(inventoryLocation, itemcode);
                 isUsed = true;
+                npcQuest.QuestCompleted();
+                
             }
             else
             {

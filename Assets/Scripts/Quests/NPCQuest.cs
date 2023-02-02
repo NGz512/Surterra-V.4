@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class NPCQuest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private bool isUsed = false;
+
+    [SerializeField] GameObject panel;
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (!isUsed)
+        {
+            panel.gameObject.SetActive(true);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void QuestCompleted()
     {
-        
+        isUsed = true;
     }
 }

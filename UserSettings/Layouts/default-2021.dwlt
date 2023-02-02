@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 361.59998
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 290.4
     height: 427.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -317,23 +317,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Dialogue
+    - Assets/TextMesh Pro/Fonts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Dialogue
+  - Assets/TextMesh Pro/Fonts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Game \u0E1B\u0E35 3 \u0E40\u0E17\u0E2D\u0E21 2\\SeniorProject\\Surterra-V.4\\Surterra
     V4.8\\Surterra-V.4"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 69.400024}
-    m_SelectedIDs: 5eaf0000
-    m_LastClickedID: 44894
-    m_ExpandedIDs: 00000000167b0000187b00001a7b00001c7b00001e7b00004e7b0000527b000000ca9a3b
+    scrollPos: {x: 0, y: 725.4}
+    m_SelectedIDs: 60930000
+    m_LastClickedID: 37728
+    m_ExpandedIDs: 000000001a7b00001c7b00001e7b0000207b0000227b0000247b0000567b0000807b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000167b0000187b00001a7b00001c7b00001e7b0000
+    m_ExpandedIDs: 000000001a7b00001c7b00001e7b0000207b0000227b0000247b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -489,23 +489,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 08fbffff
-      m_LastClickedID: -1272
-      m_ExpandedIDs: 04fbffff08fbffff3a7c00005c7c000062be000078be0000e6be000008bf0000
+      m_SelectedIDs: 06fbffff
+      m_LastClickedID: -1274
+      m_ExpandedIDs: 228cffffb28cffff0e8fffffe891ffff1a9dffff569dffff92a0ffffa0a0ffffaaa0ffff90e1ffff20e2ffff7ce4ffff56e7ffff88f2ffffc4f2ffffb8f5ffffc4f5ffffd0f5ffff04fbffff06fbffff08fbffff4cc50000aac5000080f80000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: NextButton
-        m_OriginalName: NextButton
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -4576
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 

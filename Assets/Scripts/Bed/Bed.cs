@@ -6,6 +6,6 @@ public class Bed : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        TimeManager.Instance.TestAdvanceGameDay();
+        TimeManager.Instance.TestAdvanceHour();
     }
 }

@@ -194,6 +194,18 @@ public class TimeManager : SingletonMonobehaviour<TimeManager>, ISaveable
             UpdateGameSecond();
         }
     }
+
+    /// <summary>
+    /// Skip 10 Hour
+    /// </summary>
+    public void TestAdvanceHour()
+    {
+        for (int i = 0; i < 30000; i++)
+        {
+            UpdateGameSecond();
+        }
+    }
+
     //TODO:Remove
     /// <summary>
     /// Advance 1 day

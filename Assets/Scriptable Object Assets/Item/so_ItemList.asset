@@ -767,3 +767,107 @@ MonoBehaviour:
     canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 1
+  - itemCode: 10058
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Carrot
+    itemSprite: {fileID: 21300000, guid: ce766eda650f30648b614951c6e18acc, type: 3}
+    itemLongDescription: rare carrot
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10059
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Rye
+    itemSprite: {fileID: 21300000, guid: 74cf6954fa5c66a439c4c3d2f7a99116, type: 3}
+    itemLongDescription: rare rye
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10060
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Cabbage
+    itemSprite: {fileID: 21300000, guid: 0b2476fc9832dae49987ed81a29757e7, type: 3}
+    itemLongDescription: rare cabbage
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10061
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Chili
+    itemSprite: {fileID: 21300000, guid: fd0fadc19e6816c40b9d0c2afb3ff5af, type: 3}
+    itemLongDescription: rare chili
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10062
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Garlic
+    itemSprite: {fileID: 21300000, guid: f26a6660f851d7d41b0c7f83c61ff9e6, type: 3}
+    itemLongDescription: rare garlic
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10063
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Shallot
+    itemSprite: {fileID: 21300000, guid: 83750a3bc14139242b3da67dbaa2fac1, type: 3}
+    itemLongDescription: rare shallot
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10064
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Peanut
+    itemSprite: {fileID: 21300000, guid: 7f3bdb248cd29aa4f918632d23d394b3, type: 3}
+    itemLongDescription: rare peanut
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10065
+    itemValue: 0
+    itemType: 1
+    itemDescription: Rare Potato
+    itemSprite: {fileID: 21300000, guid: 8669d7fb99038ff4a8ac0488fae15752, type: 3}
+    itemLongDescription: rare potato
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
